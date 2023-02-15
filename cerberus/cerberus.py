@@ -12,7 +12,7 @@ import sys
 import re
 import copy
 from datetime import datetime
-from collections import Iterable, Mapping, Sequence
+from collections.abc import Iterable, Mapping, Sequence
 from . import errors
 
 if sys.version_info[0] == 3:
