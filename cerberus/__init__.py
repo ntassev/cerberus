@@ -10,7 +10,7 @@
 
 from .cerberus import Validator, ValidationError, SchemaError
 
-__version__ = "0.9.2-nt1"
+__version__ = "0.9.2+py310"
 
 __all__ = [
     Validator.__name__,
